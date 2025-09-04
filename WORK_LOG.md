@@ -1,9 +1,10 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date        |     Time     |                                                                                                                                                                                                                                                                                                                                                   Update |
+|:------------|:------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| September 2 | 1:15-1:45pm  |                                                                                    At first, I thought of finding the largest ladders and just taking those. However, I quickly realized that that idea would not work at all. Then I began to think about it by just looking at the next 6 squares, and seeing whether there was any snakes or ladders. |
+| September 3 | 9:00-9:30pm  |                                                                                                  After thinking about iterating over every 6 squares, I got a little stuck on what to do from there. I began to start thinking about doing something similar to breadth-first-search, but I didn't think that it would apply very well to this scenario. |
+| September 3 | 9:30-10:00pm | By this point, I was getting very confused on how to solve this problem, so I started to think about how to find out if the puzzle is unwinnable. This is what I came up with: if there are 6 snakes all in a row, and there is no ladder that skips those snakes (ladder has to start before snakes and end after them), then the puzzle is unwinnable. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
